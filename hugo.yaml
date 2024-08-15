@@ -1,7 +1,8 @@
 baseURL: https://davehogan.co.uk
 languageCode: en-gb
-title: Dave Hogan | Software Developer
+title: Dave Hogan, Software Developer
 theme: ["PaperMod"]
+enableRobotsTXT: true
 
 menu:
   main:
@@ -17,6 +18,15 @@ menu:
       name: github
       url: https://github.com/DaveHogan
       weight: 30
+
+profileMode:
+  enabled: true
+  title: "Dave Hogan, Software Developer"
+  subtitle: "Software Developer"
+  imageUrl: "profile-image.jpg"
+  imageTitle: "Dave Hogan profile picture"
+  imageWidth: 120
+  imageHeight: 120
 
 socialIcons:
   - name: "linkedin"
