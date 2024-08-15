@@ -1,7 +1,6 @@
 +++
 title = 'Gitflow Branching Strategy'
 date = 2024-08-15T16:41:46+01:00
-draft = true
 +++
 
 _This post was taken from a rough [gist](https://gist.githubusercontent.com/DaveHogan/77052a4bcd902d4242d5ccf86daa1ddd/) I created whilst strategising a GitFlow branching strategy in a new team setting. Views may have likely changed since then and no on-size fits all._
@@ -273,7 +272,7 @@ steps:
     script: |
         Write-Host "##vso[build.updatebuildnumber]$(CustomBuildNumber).$(revision)-alpha"
         Write-Host "Build.BuildNumber: $(Build.BuildNumber)"
-        
+
 - task: PowerShell@2
   displayName: 'Is Release-Candidate Build?'
   condition: and(succeeded(), startsWith(variables['Build.SourceBranch'], 'refs/heads/rc/'))
