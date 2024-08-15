@@ -1,0 +1,27 @@
+baseURL: https://davehogan.co.uk
+languageCode: en-gb
+title: Dave Hogan | Software Developer
+theme: ["PaperMod"]
+
+menu:
+  main:
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+    - identifier: github
+      name: github
+      url: https://github.com/DaveHogan
+      weight: 30
+
+socialIcons:
+  - name: "linkedin"
+    url: "https://www.linkedin.com/in/davehoganiow/"
+  - name: "github"
+    url: "https://github.com/DaveHogan"
+  - name: "Twitter / X"
+    url: "https://twitter.com/davehoganiw"
