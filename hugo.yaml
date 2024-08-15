@@ -4,6 +4,7 @@ title: Dave Hogan
 theme: ["PaperMod"]
 enableRobotsTXT: true
 enableInlineShortcodes: true
+googleAnalytics: G-PM29XZBB1X
 
 outputs:
   home:
