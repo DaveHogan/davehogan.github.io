@@ -1,11 +1,29 @@
 baseURL: https://davehogan.co.uk
 languageCode: en-gb
-title: Dave Hogan, Software Developer
+title: Dave Hogan
 theme: ["PaperMod"]
 enableRobotsTXT: true
+enableInlineShortcodes: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+minify:
+  minifyOutput: true  
+  disableXML: true # Don't minify the RSS feed
+taxonomies:
+  category: categories
+  tag: tags
 
 menu:
-  main:
+  main:    
+    - identifier: posts
+      name: posts
+      url: /posts/
+      weight: 1
     - identifier: categories
       name: categories
       url: /categories/
@@ -19,19 +37,36 @@ menu:
       url: https://github.com/DaveHogan
       weight: 30
 
-profileMode:
-  enabled: true
-  title: "Dave Hogan, Software Developer"
-  subtitle: "Software Developer"
-  imageUrl: "profile-image.jpg"
-  imageTitle: "Dave Hogan profile picture"
-  imageWidth: 120
-  imageHeight: 120
+params:
+  description: "Software Developer - Likes technology, dotnet, blockchain & crypto, gym, 3D printing, piano and guitar ... far too many hobbies"
+  author: Dave Hogan
+  comments: true
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowWordCount: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowShareButtons: false
+  
+  profileMode:
+    enabled: true
+    title: "Dave Hogan"
+    subtitle: 'UK Software Developer with far too many hobbies; technology, dotnet, crypto, gym, 3D printing, piano and guitar... Opinions expressed are my own'
+    imageUrl: "profile-image.jpg"
+    imageTitle: "Dave Hogan profile picture"
+    imageWidth: 120
+    imageHeight: 120
+      
+    buttons:
+      - name: "Blog"
+        url: "/posts"
 
-socialIcons:
-  - name: "linkedin"
-    url: "https://www.linkedin.com/in/davehoganiow/"
-  - name: "github"
-    url: "https://github.com/DaveHogan"
-  - name: "Twitter / X"
-    url: "https://twitter.com/davehoganiw"
+  socialIcons:
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/davehoganiow/"
+    - name: "github"
+      url: "https://github.com/DaveHogan"
+    - name: "x"
+      url: "https://x.com/davehoganiw"
+    - name: "stackoverflow"
+      url: "https://stackoverflow.com/users/235644/dave-hogan"
