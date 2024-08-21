@@ -2,7 +2,7 @@
 title = 'Bundling and Minification in ASP.NET Web Pages'
 date = 2024-08-15T13:07:57+01:00
 tags = ["WebPack", "Bundling", "Minification"]
-categories = ["programming","optimisation"]
+categories = ["Programming","Web Optimisation", "Tutorials"]
 +++
 
 _This post was taken from a rough [gist](https://gist.github.com/DaveHogan/ab74b72593c7cdd62ee8ce87c042641f) I created whilst battling bundling and minification back in Nov '23. Things have likely changed since then._

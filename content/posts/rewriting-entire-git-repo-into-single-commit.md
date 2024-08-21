@@ -2,8 +2,8 @@
 title = 'Rewriting Entire Git Branch into a Single Commit'
 date = 2024-08-21T23:44:22+01:00
 draft = false
-tags = ['git']
-categories = ['Git', 'Tutorials']
+tags = ["Git"]
+categories = ["Git", "Tutorials"]
 +++
 
 ## Squishing Everything Back to a Single Commit in Git
