@@ -1,0 +1,11 @@
+<div class="project-card">
+  <h3><a href="{{ .Get "url" }}" target="_blank">{{ .Get "title" }}</a></h3>
+  <div class="project-content">
+    <div class="project-description">
+        <p>{{ .Get "description" }}</p>
+      </div>
+    <div class="project-image">
+        <a href="{{ .Get "url" }}" target="_blank">  <img src="{{ .Get "image" }}" alt="{{ .Get "alt" }}"></a>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,63 @@
+
+.portfolio-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .project-card {
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-card h3 {
+    margin-top: 0;
+  }
+  
+  .project-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  @media (min-width: 768px) {
+    .project-content {
+      flex-direction: row;
+    }
+  }
+  
+  .project-image {
+    flex: 1;
+  }
+  
+  .project-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    transition: transform 0.3s ease;
+  }
+  
+  .project-image img:hover {
+    transform: scale(1.05);
+  }
+  
+  .project-description {
+    flex: 1;
+    align-content: center;
+  }
+  
+  .project-description p {
+    margin: 0;
+  }
+  
+  .project-description a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .project-description a:hover {
+    text-decoration: underline;
+  }

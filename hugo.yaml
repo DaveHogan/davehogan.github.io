@@ -20,11 +20,15 @@ taxonomies:
   tag: tags
 
 menu:
-  main:    
+  main:   
+    - identifier: portfolio
+      name: portfolio
+      url: /portfolio/
+      weight: 1
     - identifier: posts
       name: posts
       url: /posts/
-      weight: 1
+      weight: 5
     - identifier: categories
       name: categories
       url: /categories/
@@ -37,6 +41,7 @@ menu:
       name: github
       url: https://github.com/DaveHogan
       weight: 30
+
 
 params:
   description: "Software Developer - Likes technology, dotnet, blockchain & crypto, gym, 3D printing, piano and guitar ... far too many hobbies"
@@ -59,8 +64,11 @@ params:
     imageHeight: 120
       
     buttons:
-      - name: "Blog"
+      - name: "Blog ✍️"
         url: "/posts"
+      - name: "Things I've Built 🔨"
+        url: "/portfolio"
+
 
   socialIcons:
     - name: "linkedin"
