@@ -2,8 +2,8 @@
 title = 'Reflecting on the need for Abstracting DateTime.Now'
 date = 2025-01-24T20:55:21+01:00
 draft = false
-tags = ["DI", "Testing"]
-categories = ["Programming", "Unit Testing", "Tutorials"]
+tags = ["DI", "Testing", "Unit Testing", "Tutorials"]
+categories = ["Development Blog"]
 +++
 
 ## Unit Testing Newbie

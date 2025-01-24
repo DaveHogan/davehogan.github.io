@@ -1,8 +1,8 @@
 +++
 title = 'Gitflow Branching Strategy'
 date = 2024-08-15T16:41:46+01:00
-tags = ["Git"]
-categories = ["Git", "Tutorials", "Opinionated"]
+tags = ["Git", "Tutorials", "Opinionated"]
+categories = ["Development Blog"]
 +++
 
 _This post was taken from a rough [gist](https://gist.githubusercontent.com/DaveHogan/77052a4bcd902d4242d5ccf86daa1ddd/) I created whilst strategising a GitFlow branching strategy in a new team setting. Views may have likely changed since then and no on-size fits all._
