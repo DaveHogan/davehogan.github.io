@@ -21,18 +21,18 @@ taxonomies:
 
 menu:
   main:   
+    - identifier: about
+      name: about me
+      url: /about/
+      weight: 1
     - identifier: portfolio
       name: portfolio
-      url: /portfolio/
-      weight: 1
+      url: /portfolio
+      weight: 4
     - identifier: posts
       name: posts
       url: /posts/
       weight: 5
-    - identifier: categories
-      name: categories
-      url: /categories/
-      weight: 10
     - identifier: tags
       name: tags
       url: /tags/
