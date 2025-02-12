@@ -37,7 +37,7 @@ For those interested in learning this piece, you can find the sheet music on [Mu
 
 ## What's Next?
 
-I'm moving on to another piece from the ABRSM Grade 1 syllabus titled **Sneaky Business** from Jazz, Rags & Blues, Book 1 by Martha Mier.
+I'm moving on to another piece from the ABRSM Grade 1 syllabus titled [**Sneaky Business**](/posts/music/sneaky-business-matha-mier) from Jazz, Rags & Blues, Book 1 by Martha Mier.
 
 I will continue to keep coming back to Allegretto in C, particularly to focus on:
 - Smoothing out the Alberti bass sections
