@@ -33,7 +33,7 @@ I'll keep working on the rhythm, controlling the crescendo, and executing the ri
 
 ## What's Next?
 
-I'm working alongside other two Grade 2 pieces that my tutor has assigned. These are Mozzie and Écossaise in G.
+I'm working alongside other two Grade 2 pieces that my tutor has assigned. These are [Mozzie](/posts/music/mozzie) and Écossaise in G.
 Which I'll post about these once I'm a bit more accurate and up to speed. I did post my first YouTube Short on Écossaise in G but still not happy enough with the articulations yet. {{< youtube RNvOlKknxJI >}}
 
 I'm still coming back occasionally to my grade 1 peices too [Allegretto in C peice](/posts/music/allegretto-in-c-diabelli), [Allegretto in C peice](/posts/music/fresh-air) and [Sneaky Business](/posts/music/sneaky-business-matha-mier) but the focus is now on these grade 2 pieces.
