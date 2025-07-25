@@ -1,7 +1,7 @@
 version: 2
 updates:
-  # npm dependencies
-  - package-ecosystem: "npm"
+  # Git submodules (Hugo themes)
+  - package-ecosystem: "gitsubmodule"
     directory: "/"
     schedule:
       interval: "weekly"
@@ -10,15 +10,12 @@ updates:
     labels:
       - "dependencies"
       - "automated"
+      - "hugo-theme"
     commit-message:
       prefix: "chore(deps)"
       include: "scope"
     reviewers:
       - "DaveHogan"
-    groups:
-      dependencies:
-        patterns:
-          - "*"
 
   # GitHub Actions
   - package-ecosystem: "github-actions"
@@ -34,4 +31,4 @@ updates:
       prefix: "chore(deps)"
       include: "scope"
     reviewers:
-      - "DaveHogan" 
+      - "DaveHogan"
