@@ -14,8 +14,6 @@ updates:
     commit-message:
       prefix: "chore(deps)"
       include: "scope"
-    reviewers:
-      - "DaveHogan"
 
   # GitHub Actions
   - package-ecosystem: "github-actions"
