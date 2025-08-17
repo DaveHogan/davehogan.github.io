@@ -29,11 +29,11 @@ Angelfish is a lovely, flowing piece that's quite easy to get under the fingers.
 
 I'll keep working on the rhythm, controlling the crescendo, and executing the ritardando more effectively.
 
-*Sheet music for this piece can typically be found in the ABRSM Piano Exam Pieces books for the relevant years. Unfortunately it's not available on musescore, assuming because of copyright.*
+*Sheet music for this piece can typically be found in the ABRSM Piano Exam Pieces books for the relevant years. Unfortunately it's not available on MuseScore, assuming because of copyright.*
 
 ## What's Next?
 
 I'm working alongside other two Grade 2 pieces that my tutor has assigned. These are [Mozzie](/posts/music/mozzie) and Écossaise in G.
 Which I'll post about these once I'm a bit more accurate and up to speed. I did post my first YouTube Short on Écossaise in G but still not happy enough with the articulations yet. {{< youtube RNvOlKknxJI >}}
 
-I'm still coming back occasionally to my grade 1 peices too [Allegretto in C peice](/posts/music/allegretto-in-c-diabelli), [Allegretto in C peice](/posts/music/fresh-air) and [Sneaky Business](/posts/music/sneaky-business-matha-mier) but the focus is now on these grade 2 pieces.
+I'm still coming back occasionally to my grade 1 pieces too [Allegretto in C piece](/posts/music/allegretto-in-c-diabelli), [Allegretto in C piece](/posts/music/fresh-air) and [Sneaky Business](/posts/music/sneaky-business-matha-mier) but the focus is now on these grade 2 pieces.

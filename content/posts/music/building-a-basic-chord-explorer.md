@@ -24,7 +24,7 @@ The tool is still very raw and early in development, but already provides a usef
 You can try the Piano Chord Explorer here:
 [Piano Chord Explorer](https://davehogan.co.uk/PianoChordExplorer/)
 
-![Piano Chord Explorer Screenshot](https://github.com/DaveHogan/PianoChordExplorer/raw/main/Screenshot.png)
+![Piano Chord Explorer Screenshot](https://github.com/DaveHogan/PianoChordExplorer/raw/main/src/assets/Screenshot.png)
 
 ## Why I Built It
 
@@ -45,7 +45,7 @@ The tool is built with simple web technologies and zero frameworks. Whilst I'm a
 - JavaScript for interactivity
 - Web Audio API for sound generation
 
-I opted for a minimal approach without frameworks to keep it lightweight and focused. The entire tool is client-side, meaning it runs entirely in your browser without needing a server. Project structure and standards is non-existant currently.
+I opted for a minimal approach without frameworks to keep it lightweight and focused. The entire tool is client-side, meaning it runs entirely in your browser without needing a server. Project structure and standards is non-existent currently.
 
 ## Future Improvements
 

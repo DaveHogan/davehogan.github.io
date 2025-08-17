@@ -5,13 +5,13 @@ tags = ["Piano", "Grade 1", "ABRSM"]
 categories = ["Music Blog"]
 +++
 
-The third ABRMS grade 1 piece I've been learning is a peice titled **Fresh Air** by Andrew Eales.
-Again another unpolished performance but getting the notes and rythmn mostly right. As with all grade 1 peices I've learnt so far, I know I still have work to do. The biggest issue being my dynamics and articulation.
+The third ABRMS grade 1 piece I've been learning is a piece titled **Fresh Air** by Andrew Eales.
+Again another unpolished performance but getting the notes and rythmn mostly right. As with all grade 1 pieces I've learnt so far, I know I still have work to do. The biggest issue being my dynamics and articulation.
 
 {{< youtube ATCS-6dSWpw >}}
 
 ## The Journey
-At first glance this looks like an easy peice (and of course, it is as it's a grade 1) but there are a few things that kept catching me out.
+At first glance this looks like an easy piece (and of course, it is as it's a grade 1) but there are a few things that kept catching me out.
 Holding doing the E whilst continuing playing other notes in bar 1, 3 etc... took my brain forever to get right.
 
 The piece introduced me to several new concepts:
@@ -32,6 +32,6 @@ For those interested in learning this piece, you won't find this on MuseScore du
 
 ## What's Next?
 
-My tutor has suggested I continue working on these but me's also introduced me to some new grade 2 peices to look at. I have another ungraded peice (probably a level 1 arrangement) given to me too, which is a basic arrangement of the traditional song Amazing Grace.
+My tutor has suggested I continue working on these but me's also introduced me to some new grade 2 pieces to look at. I have another ungraded piece (probably a level 1 arrangement) given to me too, which is a basic arrangement of the traditional song Amazing Grace.
 
-I will continue to keep coming back to each peice but focus on new grade 2 peices now.
+I will continue to keep coming back to each piece but focus on new grade 2 pieces now.

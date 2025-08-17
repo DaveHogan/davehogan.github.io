@@ -11,14 +11,14 @@ Here's where I'm at with it so far.
 {{< youtube iCEgREENcjA >}}
 
 ## The Journey
-After "completing" [Angelfish](/posts/music/angelfish-anne-crosby-gaudet) this was a much bigger jump for me. It's much faster, funky and jazzy rhythm and plently of articulations to get right. 
+After "completing" [Angelfish](/posts/music/angelfish-anne-crosby-gaudet) this was a much bigger jump for me. It's much faster, funky and jazzy rhythm and plenty of articulations to get right. 
 
 The piece introduced me to several new concepts:
 - Grace notes
 - Jazz style
 - Articulations of the accents (particularly on beat 3) - I've struggled to get this right
 
-*Sheet music for this piece can typically be found in the ABRSM Piano Exam Pieces books for 2023/24. Unfortunately it's not available on Musescore, assuming because of copyright*
+*Sheet music for this piece can typically be found in the ABRSM Piano Exam Pieces books for 2023/24. Unfortunately it's not available on MuseScore, assuming because of copyright*
 
 ## Reflection
 I've enjoyed learning this as it's completely different to everything I've learnt so far. The jazzy sound and change in dynamics was fun and challenging too. 
