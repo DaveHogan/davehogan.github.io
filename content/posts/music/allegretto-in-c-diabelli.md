@@ -5,7 +5,7 @@ tags = ["Piano", "Grade 1", "ABRSM"]
 categories = ["Music Blog"]
 +++
 
-I'm sharing my first recording of a ABRMS grade 1 piece 😱 titled **Allegretto in C** by Anton Diabelli. My tutor gave me this as my first piece. This is "No. 3 from Die ersten 12 Lectionen, Op. 125" and is part of the ABRSM 2023 & 2024 Piano Grade 1 syllabus. I'm not sure if it's in this years 2025 syllabus?
+I'm sharing my first recording of a ABRSM grade 1 piece 😱 titled **Allegretto in C** by Anton Diabelli. My tutor gave me this as my first piece. This is "No. 3 from Die Ersten 12 Lectionen, Op. 125" and is part of the ABRSM 2023 & 2024 Piano Grade 1 syllabus. I'm not sure if it's in this years 2025 syllabus?
 
 It's by no means a polished performance but I felt it's good enough to move on to other pieces now. I've probably spent about 10 hours on this piece and played 100+ times.
 

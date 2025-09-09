@@ -5,7 +5,7 @@ tags = ["Piano"]
 categories = ["Music Blog"]
 +++
 
-I've been a life long consumer of music and I love pretty much all genres. Music really hits me emotionally. 
+I've been a lifelong consumer of music and I love pretty much all genres. Music really hits me emotionally. 
 I love live music, blessed with the Isle of Wight Festival and the local music scene here, and visited many orchestras and music venues over the years.
 
 Despite this, as a kid, I never really ___explored___ music. I just consumed it. I had a school borrowed acoustic guitar for a few weeks but that was it.
@@ -27,19 +27,19 @@ It wasn't long before I "_needed_" a better piano. I decided on the Kawai ES120 
 Like most beginners, and as I did previously with the guitar, I started learning a few things via Youtube and doing the easy thing of watching Synthesia videos.
 Synthesia is similar to Tablature but with a piano. It's a useful tool by helping you visualise what to play without having to read sheet music. However it can be a crutch and eventually slow you down.
 
-I wanted more progress and I wanted to make sure I was learning the "correct way". At this point I was about 15 months into learning the piano and I decided I should go down the formal training route and higher a tutor. I wanted to learn how to read sheet music and maybe even get a grade. Regardless on whether this was a passing hobby, learning to read sheet music would be beneficial for future instruments and just a good skill to have.
+I wanted more progress and I wanted to make sure I was learning the "correct way". At this point I was about 15 months into learning the piano and I decided I should go down the formal training route and hire a tutor. I wanted to learn how to read sheet music and maybe even get a grade. Regardless on whether this was a passing hobby, learning to read sheet music would be beneficial for future instruments and just a good skill to have.
 
-In October 2024, I took up in-person lessons with Roger from [Isle Teach Piano](https://isleteachpiano.co.uk/) and I've been enjoying it. Very humbled going back to the most basic of music to actually be able to learn and study a piece. In the last 3 months, I've been a few grade 1 pieces and now working my way through a couple of grade 2 pieces. I like the variety of pieces and the challenge of learning them, the different styles and the different techniques. Things I wouldn't have got self-taught. So... lots of preamble for essentially to only say follow my journey, if you'd like, on YouTube playlist below.
+In October 2024, I took up in-person lessons with Roger from [Isle Teach Piano](https://isleteachpiano.co.uk/) and I've been enjoying it. Very humbled going back to the most basic music to actually be able to learn and study a piece. In the last 3 months, I've been a few grade 1 pieces and now working my way through a couple of grade 2 pieces. I like the variety of pieces and the challenge of learning them, the different styles and the different techniques. Things I wouldn't have got self-taught. So... lots of preamble for essentially to only say follow my journey, if you'd like, on YouTube playlist below.
 
 ## [My Piano Journey Playlist](https://www.youtube.com/playlist?list=PLboNyaCNE0vgtUk_j4TumMuSeGM5ALdSC)
 [![YouTube logo](/images/youtube.png)](https://www.youtube.com/playlist?list=PLboNyaCNE0vgtUk_j4TumMuSeGM5ALdSC)
 
 If you're interested in my piano journey and want to see my progress then this is the playlist where I plan to record my progress.
-I wish I recorded my progress more regularly and hope to do so more in the future. It's an important strategy to see where you're at and how you're progressing.
+I wish I had recorded my progress more regularly and I hope to do so more in the future. It's an important strategy to see where you're at and how you're progressing.
 I really recommend recording your progress in anything you do. I've found sharing with others is a great way to keep you motivated and get feedback.
 
 The Facebook group [**Adult Piano Beginners**](https://www.facebook.com/groups/1114361552240767) is a great place to share your progress too. 
 I posted here for the first time recently and received some really good feedback on my posture.
 
 ### End Goal?
-I'm not a natural, I probably won't **ever** been a good pianist. I'm just a guy who loves music and wants to play the piano. I enjoy learning and will aim to take grades in the future for both theory and practical. There is no end goal or unrealistic achievements. Just having fun.
+I'm not a natural, I probably won't **ever** be a good pianist. I'm just a guy who loves music and wants to play the piano. I enjoy learning and will aim to take grades in the future for both theory and practical. There is no end goal or unrealistic achievements. Just having fun.

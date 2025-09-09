@@ -5,7 +5,7 @@ tags = ["Piano", "Grade 1", "ABRSM"]
 categories = ["Music Blog"]
 +++
 
-I'm sharing my second recording of a ABRMS grade 1 piece 😱 titled **Sneaky Business** by Martha Mier. My tutor gave me this as my second piece to learn. This is from Jazz, Rags & Blues, Book 1 and is part of the ABRSM 2023 & 2024 Piano Grade 1 syllabus.
+I'm sharing my second recording of a ABRSM grade 1 piece 😱 titled **Sneaky Business** by Martha Mier. My tutor gave me this as my second piece to learn. This is from Jazz, Rags & Blues, Book 1 and is part of the ABRSM 2023 & 2024 Piano Grade 1 syllabus.
 
 Again it's by no means a polished performance but happy with the progress and will continue to work on it but also move on to other piece.
 

@@ -5,8 +5,8 @@ tags = ["Piano", "Grade 1", "ABRSM"]
 categories = ["Music Blog"]
 +++
 
-The third ABRMS grade 1 piece I've been learning is a piece titled **Fresh Air** by Andrew Eales.
-Again another unpolished performance but getting the notes and rythmn mostly right. As with all grade 1 pieces I've learnt so far, I know I still have work to do. The biggest issue being my dynamics and articulation.
+The third ABRSM grade 1 piece I've been learning is a piece titled **Fresh Air** by Andrew Eales.
+Again another unpolished performance but getting the notes and rhythm mostly right. As with all grade 1 pieces I've learnt so far, I know I still have work to do. The biggest issue being my dynamics and articulation.
 
 {{< youtube ATCS-6dSWpw >}}
 
@@ -15,7 +15,7 @@ At first glance this looks like an easy piece (and of course, it is as it's a gr
 Holding doing the E whilst continuing playing other notes in bar 1, 3 etc... took my brain forever to get right.
 
 The piece introduced me to several new concepts:
-- Wider range of dymanics 
+- Wider range of dynamics 
 - Coordinating hands together with different patterns
 
 ### Challenges
