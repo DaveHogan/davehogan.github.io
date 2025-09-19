@@ -15,8 +15,16 @@ Here's a few things I've built recently:
 <hr>
 
   {{< project-card 
+      title="🌍 Tag The Map"
+      image="/images/tagthemap-logobutton.png"
+      alt="Tag The Map Logo"
+      url="/posts/development/building-tag-my-map/"
+      description="Tag The Map is an interactive experience where users can share places they've travelled too to share their experiences on a live collaborative map. Read how and why I built TagTheMap"
+  >}}
+
+  {{< project-card 
       title="🔍The Gym Directory UK"
-      image="/images/gymdirectoryuk-black.png"
+      image="/images/gymdirectoryuk-logobutton.png"
       alt="The Gym Directory UK Logo"
       url="https://gymdirectory.co.uk"
       description="The Gym Directory UK is a comprehensive directory of gyms across the United Kingdom. Different to other gym directories, I aim to catalogue equipment & facilities to help find gyms for more niche training needs."
@@ -24,9 +32,10 @@ Here's a few things I've built recently:
 
   {{< project-card 
       title="♞ Knight Tour Challenge"
-      image="/images/KnightTourChallenge-black.png"
+      image="/images/KnightTourChallenge-logobutton.png"
       alt="Knight Tour Challenge Logo"
       url="https://knightstourchallenge.com"
       description="Knight Tour Challenge is an interactive puzzle game based on the classic chess knight's tour problem. Rather than a game, it's more of an interactive way to learn about the knight's tour problem and the solutions to it."
   >}}
+
 {{< /page-content-container >}}
