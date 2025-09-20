@@ -1,6 +1,6 @@
 ---
 title: "Building Tag The Map"
-description: "Using xAI Grok Code Fast 1 with Kilo Extension"
+description: "Using xAI: Grok Code Fast 1 with Kilo Extension"
 date: 2025-09-19
 draft: false
 categories: ["development"]
@@ -8,18 +8,19 @@ tags: ["team building", "TagTheMap", "xAI", "Kilo"]
 ---
 
 # Overview
-In my day job, the wider team I am a part of, run a twice monthly *informal-ish* team meeting. The format is that we each take turns to host and cover various. These are mostly non-work related *fun* activities or discussions. It's a good way for team bonding and to deliberate in  getting to know our colleagues better, especially when spread across various geographical regions. 
+In my day job, the wider team that I am a part of, run a twice monthly *informal-ish* team meeting. The format is that we each take turns to host and cover various. These are mostly non-work related *fun* activities or discussions. It's a good way for team bonding and getting to know each other better at a personal level, especially when we're spread across various geographical regions. 
 
-As my turn has come up again, I want to achieve something slightly different. In the past, we've covered about books, films, music, character traits and hosted quizzes. How could I meet two goals.
- * Meet the goal by discussing our travel experiences such as where we've been too / our favourite places and visualise the teams results.
- * Show case the power of modern AI development tools. This idea came to me late Saturday and the meeting was Monday. My thought process was "what could be achievable in 24 hours? This could really showcase some rapid development".
+As my turn has come up again, I wanted to achieve something slightly different. In the past, we've covered about books, films, music, character traits and hosted quizzes. I wanted to come up with something that:
+ * Meets the goal of a inclusive, fun and friendly team building activity
+ * Show case the power of modern AI development tools. 
+ 
+ An idea came to me late Saturday and the meeting was Monday. My thought process was "what could be achievable in 24 hours? This could really showcase some rapid development".
 
 ## What I decided on
-I decided to create a very simple tool to allow users to add locations on a map to show where they've visited. 
-With the help of ChatGPT, I came up with a name and domain [Tag the Map](https://tagthemap.com). I find this a really useful way to conceptualise ideas like this.
-Because I don't get to use these tools in my day job and I wanted to give xAI Grok Code Fast 1 a whirl in my own time. The model is new and Kilo is currently offering free usage!
+I decided to create a very simple tool to allow users to add locations on a map to show where they've been! Hopefully prompting discussion about our travel experiences and visualise the diverse places the team have lived or travelled to. With the help of ChatGPT, I came up with a name and domain [Tag the Map](https://tagthemap.com). I find this a really useful way to conceptualise ideas like this.
+Because I don't get to use these tools in my day job and I wanted to give xAI: Grok Code Fast 1 a whirl in my own time and this was a perfect opportunity to do that but share the outcome. The xAI: Grok Code Fast 1 model is new and Kilo is currently offering free usage for a limited time!
 
-## Key Features of the application
+## Key Features of the idea/application
 - Host can start an event (generates 8-character code, authenticated)
 - Host can view/stop past sessions
 - Host shares screen, sees real-time mouse movements and clicks
@@ -27,13 +28,16 @@ Because I don't get to use these tools in my day job and I wanted to give xAI Gr
 - Users can click up to 20 places on a map, leaving a pin/circle with initials
 
 ## Self imposed rules
+I came up with a few self imposed rules to really showcase the tools and models available
 * Only use Visual Studio Code with the Kilo Extension (Kilo combines the best features of AI coding tools, supporting many models, free and open-source) - [kilocode.ai](https://kilocode.ai)
 * Use only ChatGPT for brain storming / idea generation, no coding.
-* Only use Kilo AI extension with xAI Grok Code Fast 1
-* Limed usage of my prior coding knowledge and experience. I want this to be more about the capabilities of Agent tools, although this isn't a vibe code or attempt at a one-shot.
+* Only use Kilo AI extension with xAI: Grok Code Fast 1 as the model
+* Limited usage of my prior coding knowledge and experience. I want this to be more about the capabilities of Agent tools, although this isn't a vibe code or attempt at a one-shot.
 
 ## The first prompt
-This prompt I went with isn't aimed at trying to one-shot this. I gave it some guidance on the tech stack and structure I wanted because that's what I'm interested in right now and most familiar with. I already have the Azure Infra to hand.
+To begin, I came up with the initial prompt. I wasn't trying one-shot this but did try to be clear on the basic boiler plate. I gave it some guidance on the tech stack and structure I wanted because that's what I'm interested in right now and most familiar with. I already have the Azure Infra to hand too so that was a big factor.
+
+The first prompt I came up with was simple:
 
 ```
 I'm hosting a team building event. I want to develop a web application that captures which countries and places colleagues have been too.
@@ -71,8 +75,10 @@ Before implementing if you have clarifications you need, prompt me for them befo
 Follow best practices for .NET 9 Blazor (Server). I do not have a separate API project, so include controllers in the local web app.
 ```
 
-The last instructions about asking clarifying questions I've always found to be really important and this is true for this initial prompt.
-Kilo came back to me with clarifications on the mapping library to use:
+The last two sentences, I ask the model to clarify any assumptions and questions. I've always found to be really useful and this was true for this project.
+
+Kilo (using xAI: Grok Code Fast 1) came back to me with a couple of clarifications. Firstly on the mapping library to use:
+
 ```
 What map library or API do you prefer for displaying the interactive map (e.g., Leaflet, Google Maps, OpenStreetMap, or another)?
 
@@ -82,9 +88,9 @@ OpenStreetMap with a library like OpenLayers
 Another specific library or custom implementation
 ```
 
-Another interesting feature of Kilo is that you can ask it enhance your prompt before you submit it. I actually didn't use this feature for this prompt but I have found it useful in the past.
+Another interesting feature of Kilo is that you can ask it enhance your prompt before you submit it. I didn't use this feature for this prompt but I have found it useful in the past.
 
-After responding that I would like to use [Leaflet.js](https://leafletjs.com) (an an open-source JavaScript library for mobile-friendly interactive) it asked for more clarifications on the auth and produced this todo list of tasks:
+After responding that I would like to use [Leaflet.js](https://leafletjs.com) (an an open-source JavaScript library for mobile-friendly interactive), it asked for more clarifications on the auth and produced the following todo list of tasks:
 
 ```
 [ ] Set up project structure: Create /src directory, initialize .NET 9 Blazor Server project, add /docs, readme.md, releaseNotes.md
@@ -105,13 +111,16 @@ After responding that I would like to use [Leaflet.js](https://leafletjs.com) (a
 [ ] Deployment preparation: Configure for Azure App Service, add appsettings for production database
 ```
 
-This went off and did a fairly good job with the skelton. It needed some manual tweaking and including of some NuGet packages it decided to use but didn't reference.
-I review from this point and began a series of further refining prompts, review and manual development to produce what was demo'ed to the team.
+The Agent mode in Kilo began to proceed through each todo. It did a fairly good job with the skelton. It needed only some basic manual tweaking and the inclusion  of some NuGet packages that it decided to use but didn't reference.
+
+I reviewed after it completed which shortly after began a series of further refining prompts, reviewing implementation and manual development to produce what was the final result demo'ed to the team.
 
 ## Effort and build time
-I hate the term and the concept of "vibe coding" but I did rely heavily on xAI Grok Code Fast 1. I deliberately avoided using too much of my technical knowledge and programming experience. The purpose was to showcase the tools available. I've used a few models previously and honestly, xAI Grok Code Fast 1 is up there in terms of output but the most noticeable benefit is the speed. It's far quicker but maybe not quiet as "intelligent".
+I hate the term and the concept of "vibe coding" but I did rely heavily on xAI: Grok Code Fast 1 model. As per the initial plan, I deliberately avoided using too much of my technical knowledge and programming experience. 
 
-All in all, it was knocked up and demo-able within approximately 5 hours of effort broken down as:
+The purpose of this was to showcase the tools available and how far it's come.
+
+All in all, it was demo-able within approximately 5 hours of effort broken down as:
 
 - 30 mins - creating the prompt, validating and designing the idea
 - 15 mins - infra with Azure, Cloudflare and purchase of the domain [TagTheMap.com](https://tagthemap.com)
@@ -119,7 +128,32 @@ All in all, it was knocked up and demo-able within approximately 5 hours of effo
 - 90 mins - prompting and manual coding
 - 90 mins - refining, reviewing and testing
 ---
+
+## The experience of the model and tooling
+Overall very pleasant and trouble free, specifically: 
+
+### The Kilo experience
+At home, I mostly use a Mac for developing (approx 90% of my time). At work, I'm 100% Windows. The reason I mention this is the experience has been different between Window and Mac, even when using Visual Studio Code and Copilot.
+
+I've used Kilo previously and after this project, I'm starting to favour it over both Cursor and Copilot.
+As Cursor is a fork of Visual Studio code, thanks to Microsoft Licensing agreements, you cannot use C# Dev Kit which prevent debugging. C# Dev Kit has to run in native Visual Studio code and not any of the forks. 
+This makes Cursor a pain to debug and run your application. Another concern I have with Cursor is the extension market place but being vetted to the same standards of Microsoft's. This incident of a [Cursor IDE Malware Extension Compromise in $500k Crypto Heist](https://snyk.io/blog/cursor-ide-malware-extension-compromise-in-usd500k-crypto-heist/) has me being extra vigilant.
+
+Copilot (mostly on Windows) randomly stops mid applying mid way through, files are often not saved or get truncated. The most annoying thing is on Windows I get files that are "stuck" on Accept/Reject of the change. I see on Microsoft's Developer Community feedback forums that I'm not alone with these frustrations.
+
+Kilo has not yet borked a single apply and always completes its task. Being an extension in native Visual Studio Code makes it seamless. Kilo might not complete all tasks but it will explain why and the next steps to continue.
+
+### The xAI: Grok Code Fast 1 model
+I've used various other models over the last year (OpenAI ChatGPT models, Claude 3.5, 4.7 and Sonnet 7). Honestly, xAI: Grok Code Fast 1 is up there in terms of output quality but the most noticeable benefit is the speed. It's far quicker than all the modern, larger context models, but maybe not quiet as "intelligent"? It's hard to quantify the intelligence but it didn't always produce the cleanest or up to date code. 
+It can end up doubling up on dependencies and implementations. I noticed this mainly on DTOs and Classes etc.. This is why reviewing the output is so important to avoid code duplications and smells. A slight manual tweak or another prompt soon corrected this though. I can be opinioned on my project style at times so this does cause some annoyance. 
+
+Another thing I've experienced with all models but more so with xAI: Grok Code Fast 1 model is broken EF Core queries. Often doing projections where it's not possible translate.
+
+Overall though, it's effective, cost efficient and well worth experimenting with.
+
 ## End UI/UX Result
+The end result of the application is fully functional and in my view and nice modern visual feel for the UI and Ux. Here's some screenshots of the features and back-end analytics.
+
 ### Main user experience
   ![Map showing locations marked by users](/images/Example-Session.png)
   ### Completed Analytics
@@ -145,8 +179,8 @@ Overall I would say it was a success. The things that went wrong showed that car
 
 ### The Good
 * Most users eventually got in and successfully placed all their "tags". The tool worked!
-* We completed the map!
-* Mobile layout seemed to be usable as some users had to drop from desktop to mobile (see the below for why!)
+* The team completed the map!
+* Mobile experience was usable as some users had to drop from desktop to mobile (see the below for why!)
 * Feedback as mostly positive
 
 ### The Bad
@@ -159,7 +193,7 @@ There were few things that went wrong, and not necessarily anything the AI tooli
 
 * **Newly registered domain** 
   
-  The application was blocked by some proxies because it was a newly registered domain. I decided on a custom domain to avoid the shared `azurewebsites.net` domain thinking that could be problematic, when in fact a newly registered domain (less than 24 hours in this instance) can rightly be flagged as a risk. Fortunately the app worked well on personal mobile devices. Whilst was in my prompts did mention it should be mindful of mobile and use responsive design and touch gestures, it wasn't thoroughly tested on mobile devices.
+  The application was blocked by some corporate proxies. This is because of a filter that correctly identified that this was a newly registered domain. Bad actors often knock up sites on newly registered domains in a disposal fashion for phishing sites. Ironically, I decided to invest on a custom domain to avoid proxies potentially blocking sites hosted on the domain `azurewebsites.net`. Newly registered domain (less than 24 hours in this instance) can rightly be flagged as a risk. Fortunately the app worked well on personal mobile devices as a workaround. Whilst in my prompts, I did mention it should be mindful of mobile users and use responsive design, touch gestures etc... it wasn't thoroughly tested on mobile devices.
 
 * **Locating Countries**
   
@@ -177,7 +211,7 @@ Now the team know the real purpose of my travel discussion, I've now volunteered
 
 As for TagTheMap.com, I may open this up to the public but to get it to scale would require extending the infrastructure. Without monetising this in some way, it will blow up my Azure bill and honestly, I doubt there is much desire for this in the real world.
 
-If this has been useful or have specific questions on my experience with Kilo or xAI Grok Code Fast 1, drop me a comment.
+If this has been useful or have specific questions on my experience with Kilo or xAI: Grok Code Fast 1, drop me a comment.
 
 ### Final comment
 Nothing in this post is sponsored or affiliated in anyway. I'm just using the tools and services I've come across and enjoyed working with. I also do not use AI to write posts, so please forgive the style, grammar and accuracy :)
