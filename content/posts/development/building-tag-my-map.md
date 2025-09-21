@@ -1,10 +1,10 @@
 ---
 title: "Building Tag The Map"
-description: "Using xAI: Grok Code Fast 1 with Kilo Extension"
+description: "Using xAI: Grok Code Fast 1 with Kilo Code Extension"
 date: 2025-09-19
 draft: false
 categories: ["development"]
-tags: ["team building", "TagTheMap", "xAI", "Kilo"]
+tags: ["team building", "TagTheMap", "xAI", "Kilo Code"]
 ---
 
 # Overview
@@ -18,7 +18,7 @@ As my turn has come up again, I wanted to achieve something slightly different. 
 
 ## What I decided on
 I decided to create a very simple tool to allow users to add locations on a map to show were they've been! Hopefully prompting discussion about our travel experiences and visualise the diverse places the team have lived or travelled to. With the help of ChatGPT, I came up with a name and domain [Tag the Map](https://tagthemap.com). I find this a really useful way to conceptualise ideas like this.
-Because I don't get to use these tools in my day job and I wanted to give xAI: Grok Code Fast 1 a whirl in my own time and this was a perfect opportunity to do that but also share the outcome. The xAI: Grok Code Fast 1 model is new and Kilo is currently offering free usage for a limited time!
+Because I don't get to use these tools in my day job and I wanted to give xAI: Grok Code Fast 1 a whirl in my own time and this was a perfect opportunity to do that but also share the outcome. The xAI: Grok Code Fast 1 model is new and Kilo Code is currently offering free usage for a limited time!
 
 ## Key Features of the idea/application
 - Host can start an event (generates 8-character code, authenticated)
@@ -29,9 +29,9 @@ Because I don't get to use these tools in my day job and I wanted to give xAI: G
 
 ## Self imposed rules
 I came up with a few self imposed rules to really showcase the tools and models available
-* Only use Visual Studio Code with the Kilo Extension (Kilo combines the best features of AI coding tools, supporting many models, free and open-source) - [kilocode.ai](https://kilocode.ai)
+* Only use Visual Studio Code with the Kilo Code Extension (Kilo Code combines the best features of AI coding tools, supporting many models, free and open-source) - [kilocode.ai](https://kilocode.ai)
 * Use only ChatGPT for brain storming / idea generation, no coding.
-* Only use Kilo AI extension with xAI: Grok Code Fast 1 as the model
+* Only use Kilo Code AI extension with xAI: Grok Code Fast 1 as the model
 * Limited usage of my prior coding knowledge and experience. I want this to be more about the capabilities of Agent tools, although this isn't a vibe code or attempt at a one-shot.
 
 ## The first prompt
@@ -77,7 +77,7 @@ Follow best practices for .NET 9 Blazor (Server). I do not have a separate API p
 
 The last two sentences, I ask the model to clarify any assumptions and questions. I've always found to be really useful and this was true for this project.
 
-Kilo (using xAI: Grok Code Fast 1) came back to me with a couple of clarifications. Firstly on the mapping library to use:
+Kilo Code (using xAI: Grok Code Fast 1) came back to me with a couple of clarifications. Firstly on the mapping library to use:
 
 ```
 What map library or API do you prefer for displaying the interactive map (e.g., Leaflet, Google Maps, OpenStreetMap, or another)?
@@ -88,7 +88,7 @@ OpenStreetMap with a library like OpenLayers
 Another specific library or custom implementation
 ```
 
-Another interesting feature of Kilo is that you can ask it enhance your prompt before you submit it. I didn't use this feature for this prompt but I have found it useful in the past.
+Another interesting feature of Kilo Code is that you can ask it enhance your prompt before you submit it. I didn't use this feature for this prompt but I have found it useful in the past.
 
 After responding that I would like to use [Leaflet.js](https://leafletjs.com) (an an open-source JavaScript library for mobile-friendly interactive map), it asked for more clarifications around the auth. 
 
@@ -134,16 +134,16 @@ All in all, it was demo-able within approximately 5 hours of effort broken down 
 ## The experience of the model and tooling
 Overall very pleasant and trouble free, specifically: 
 
-### The Kilo experience
+### The Kilo Code experience
 At home, I mostly use a Mac for developing (approx 90% of my time). At work, I'm 100% Windows. The reason I mention this is the experience has been different between Window and Mac, even when using Visual Studio Code and Copilot.
 
-I've used Kilo previously and after this project, I'm starting to favour it over both Cursor and Copilot.
+I've used Kilo Code previously and after this project, I'm starting to favour it over both Cursor and Copilot.
 As Cursor is a fork of Visual Studio code, thanks to Microsoft Licensing agreements, you cannot use C# Dev Kit which prevents debugging. C# Dev Kit has to run in native Visual Studio code and not any of the forks. 
 This makes Cursor a pain to debug and run your application. Another concern I have with Cursor is the extension marketplace not being vetted to the same standards as Microsoft's. This incident of a [Cursor IDE Malware Extension Compromise in $500k Crypto Heist](https://snyk.io/blog/cursor-ide-malware-extension-compromise-in-usd500k-crypto-heist/) has me being extra vigilant.
 
 Copilot (mostly on Windows) randomly stops mid applying mid way through, files are often not saved or get truncated. The most annoying thing is on Windows I get files that are "stuck" on Accept/Reject of the change. I see on Microsoft's Developer Community feedback forums that I'm not alone with these frustrations.
 
-Kilo has not yet borked a single apply and always completes its task. Being an extension in native Visual Studio Code makes it seamless to use. Kilo might not always complete all tasks but it will explain why and the next steps to continue.
+Kilo Code has not yet borked a single apply and always completes its task. Being an extension in native Visual Studio Code makes it seamless to use. Kilo Code might not always complete all tasks but it will explain why and the next steps to continue.
 
 ### The xAI: Grok Code Fast 1 model
 I've used various other models over the last year (OpenAI ChatGPT models, Claude Sonnet 3.5, 3.7 and 4). Honestly, xAI: Grok Code Fast 1 is up there in terms of output quality but the most noticeable benefit is the speed. It's far quicker than all the modern, larger context models, but maybe not quite as "intelligent"? It's hard to quantify the intelligence but it didn't always produce the cleanest or up to date code. 
@@ -168,7 +168,7 @@ Here's some screenshots of the features and back-end analytics.
 Being a pet project and only for a team building session, costs were a limiting factor. I could have easily not spent anything by not using a custom domain and used a different storage persistence such as Azure Table Storage. The costs are broken down as:
 - £10 - Purchase of the domain - optional but I want to share this.
 - £5 - DB Hosting in Azure, re-using an existing App Service Plan
-- £0 - Kilo (free) and xAI Grok Code Fast 1 (currently free during preview)
+- £0 - Kilo Code (free) and xAI Grok Code Fast 1 (currently free during preview)
 
 *If this needed to scale to more than a handful of users, I would need to implement an Azure SignalR Service and a higher tier App Plan and database.*
 
@@ -214,7 +214,7 @@ Now the team know the real purpose of my travel discussion, I've now volunteered
 
 As for TagTheMap.com, I may open this up to the public but to get it to scale would require extending the infrastructure. Without monetising this in some way, it will blow up my Azure bill and honestly, I doubt there is much desire for this in the real world.
 
-If this has been useful or have specific questions on my experience with Kilo or xAI: Grok Code Fast 1, drop me a comment.
+If this has been useful or have specific questions on my experience with Kilo Code or xAI: Grok Code Fast 1, drop me a comment.
 
 ### Final comment
 Nothing in this post is sponsored or affiliated in any way. I'm just using the tools and services I've come across and enjoyed working with. I also do not use AI to write posts, so please forgive the style, grammar and accuracy :)
