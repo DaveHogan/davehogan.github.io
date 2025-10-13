@@ -1,6 +1,6 @@
 +++
 title = 'Cloudflare Universal SSL limitations with multi-level subdomains'
-date = 2025-10-13T00:05:00+01:00
+date = 2025-10-13T20:30:00+01:00
 draft = false
 tags = ["Cloudflare"]
 categories = ["Development Blog"]
