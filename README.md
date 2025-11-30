@@ -9,6 +9,21 @@ You'll find personal opinions / ramblings and findings of my continuous learning
  - Themed with [PaperMod](https://github.com/adityatelange/hugo-PaperMod)
  - Comments powered by [Cusdis](https://cusdis.com/)
 
+
+## Cloning and running locally
+
+This repo uses the theme [PaperMod](https://github.com/adityatelange/hugo-PaperMod) which is brought in via git Submodule. Clone with `--recursive` or after cloning run the following commands to ensure the submodule is also pulled down
+```
+git submodule init
+git submodule update
+```
+
+Once initialised simpy run
+
+```bash
+hugo server -D
+```
+
 ## Creating new content
 
 ### Creating a new post
