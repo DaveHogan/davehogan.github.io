@@ -1,0 +1,20 @@
+{{- $src := .Get "src" -}}
+{{- $title := .Get "title" | default "" -}}
+{{- $description := .Get "description" | default "" -}}
+{{- .Page.Scratch.Set "hasAudioPlayer" true -}}
+{{- /* Uses static/tracks: MP3s exist in static/tracks/; src should be "tracks/track-1.mp3" → URL /tracks/track-1.mp3 */ -}}
+<hr/>
+<figure class="audio-player-figure">  {{- if $title }}
+  <figcaption>{{ $title }}</figcaption>
+  {{- end }}  
+  {{- if $description }}
+  <p class="audio-player-description"> 
+    <small>{{ $description }}</small>
+    </p>
+    {{- end }}
+  </p>
+  <audio class="audio-player" controls preload="metadata">
+    <source src="/{{ $src }}" type="audio/mpeg">
+    <p>Your browser does not support the <code>audio</code> element. <a href="/{{ $src }}">Download the track</a>.</p>
+  </audio>
+</figure>
