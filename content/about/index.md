@@ -22,3 +22,7 @@ I've developed software professionally since 2002, but as a hobby from around 10
 I'm an ungraded amateur pianist and guitarist but currently learning piano, theory and composition. I write [about my music learning journey](/categories/music-blog/) and [record my progress](https://www.youtube.com/playlist?list=PLboNyaCNE0vgtUk_j4TumMuSeGM5ALdSC) as I go. 
 
 There are tons of excellent, professional musicians and teachers who put much better content than I'll ever be able to do. I'm not here showcasing brilliance (far, far form it), just documenting my own journey. The recordings of my playing and compositions I share are unpolished and unplanned, so apologies in advance for the quality.
+
+### ☕ Support my projects
+
+If something I have built or written has been useful, you can support my projects with a [☕ Buy Me a Coffee donation](https://buymeacoffee.com/dave.hogan). It is entirely optional, but always appreciated.

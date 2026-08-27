@@ -98,3 +98,13 @@ div.highlight, pre {
     overflow: scroll;
     padding: 1rem;
 }
+
+a[href^="https://buymeacoffee.com/"] {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-weight: 700;
+    text-decoration: underline !important;
+    text-decoration-thickness: 0.12em;
+    text-underline-offset: 0.2em;
+}
