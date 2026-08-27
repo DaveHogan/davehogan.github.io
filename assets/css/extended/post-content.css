@@ -70,8 +70,31 @@
     max-width: 480px;
     height: 40px;
   }
-  .audio-player-figure figcaption {
+.audio-player-figure figcaption {
     margin-top: 0.5em;
     font-size: 0.9em;
     color: var(--secondary, #6b6b6b);
   }
+
+/* Keep list markers within the article column while preserving a clear text indent. */
+.post-content ol,
+.post-content ul {
+  padding-inline-start: 2rem;
+}
+
+.post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 {
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  line-height: 1.2;
+}
+
+.post-content code {
+  word-wrap: break-word;
+      padding: 0;
+}
+
+div.highlight, pre {
+    position: relative;
+    overflow: scroll;
+    padding: 1rem;
+}
